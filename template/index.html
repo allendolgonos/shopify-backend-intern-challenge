@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script rel="text/javascript" src="static/functions.js"></script>
+    <link rel="shortcut icon" type="image/png" href="https://cdn.shopify.com/static/shopify-favicon.png"/>
+    <title>Inventory Tracking Application</title>
+</head>
+<body>
+<div id="item-buttons-holder">
+<button id="create-item-button" onclick="createItem()">Create Item</button>
+<button id="delete-item-button" onclick="deleteItem()">Delete Item</button>
+<button id="export-item-button" onclick="exportItemsToCSV()">Export Items To CSV</button>
+<button id="load-example-items-button" onclick="loadExampleItem()">Load Example Item</button>
+</div>
+<div id="item-table-holder">
+    <table id="item-table" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Item Description</th>
+                <th>Item Price ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div id="item-creator"></div>
+</body>
+</html>
