@@ -16,7 +16,7 @@ Export items to CSV: Click on the "Export Items To CSV" button. The CSV will be 
 Load an example item: Click on the "Load Example Item" button.
 ## How It Works
 ### Storage
-All items that a user creates is stored in a JSON file in the project directory instead of a SQLite database as appending the data to a database would add unneccesary complexity for this project. Anytime a user makes a change (creating, deleting, editing, etc.) the file is automatically updated. The application will automatically read previously saved data and load it in, allowing you to start and stop the program without losing any of you data.  
+All items that a user creates is stored in a JSON file in the project directory instead of a SQLite database as appending the data to a database would add unneccesary complexity for this project. Anytime a user makes a change (creating, deleting, editing, etc.) the file is automatically updated. The application will automatically read previously saved data and load it in, allowing you to start and stop the program without losing any of your data.  
   
 The window uses the [load event](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event) to trigger a request to [http://127.0.0.1:5000/loadItems](http://127.0.0.1:5000/loadItems) which triggers the backend to return the list of saved items back to the user.
 ### Communication Between Frontend And Backend
