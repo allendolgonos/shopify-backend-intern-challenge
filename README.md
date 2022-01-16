@@ -9,8 +9,8 @@ The Shopify Backend Developer Intern Challenge is to create an inventory trackin
 2. The web application is now live at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 ## Using The Application
 Create items: Simply click the "Create Item" button.  
-Select items: Right click on the item you want to select.
-Delete items: Click on "Delete Item" button. This will delete all selected items.
+Select items: Right click on the item you want to select.  
+Delete items: Click on "Delete Item" button. This will delete all selected items.  
 Edit items: Click on the field you want to edit, type your value and click off of the field when finished editing.  
 Export items to CSV: Click on the "Export Items To CSV" button. The CSV will be created in your project directory.  
 Load an example item: Click on the "Load Example Item" button.
