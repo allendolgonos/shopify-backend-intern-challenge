@@ -1,0 +1,111 @@
+th {
+    font-family: "Arial";
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    position: sticky;
+    padding: 0px 10px;
+    background: white;
+	white-space: nowrap;
+	height: 28px;
+    border: 3px black solid;
+}
+
+#item-table-holder {
+    border: 2px black solid;
+    padding: 5px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+#item-table {
+    width: 1000px;
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+}
+
+#create-item-button, #delete-item-button, #edit-item-button, #export-item-button, #load-example-items-button {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#create-item-button:hover, #delete-item-button:hover, #edit-item-button:hover, #export-item-button:hover, #load-example-items-button:hover {
+    /*border: 2px blue solid;*/
+    background-color: lightgrey;
+}
+
+#action-table-holder {
+    position: absolute;
+    top: 39px;
+    left: 1030px;
+    border: 2px black solid;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#action-table {
+    width: 250px;
+}
+
+#undo-action-button {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 7px;
+    left: 1030px;
+}
+
+#undo-action-button:hover {
+    background-color: lightgrey;
+}
+
+#redo-action-button {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 7px;
+    left: 1130px;
+}
+
+#redo-action-button:hover {
+    background-color: lightgrey;
+}
+
+
+td {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+
+
+.item {
+    border: 3px black solid;
+}
+
+.selected-item {
+    background-color: #2079c7;
+    border: 3px black solid;
+}
+
+img {
+    border: 2px black solid;
+}
+
+input {
+    border: 2px black solid;
+    font-family: Arial;
+}
+
+textarea {
+    border: 2px black solid;
+    font-family: Arial;
+}
