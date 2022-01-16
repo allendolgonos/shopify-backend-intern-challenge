@@ -39,10 +39,7 @@ function loadExampleItem() {
 }
 
 function exportItemsToCSV() {
-    fetch("/exportToCSV", {
-      method: "get",
-      headers: {'Content-Type': 'any'}
-    })
+    window.open("/exportToCSV")
 }
 
 function updateItems() {
